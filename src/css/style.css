@@ -1,0 +1,89 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 10px;
+    max-height: 501px;
+    max-width: 665px;
+}
+
+.imagem-perfume-mobile{
+    display: none;
+}
+.imagem-perfume{
+    max-height: 501px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.conteudo{
+    padding: 36px 35px;
+    background-color: hsl(0, 0%, 100%);
+}
+.perfume {
+    padding-bottom: 22px;
+    color:hsl(228, 12%, 48%);
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.nome-perfume{
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    line-height: 36px;
+    padding-bottom: 27px;
+    color: hsl(212, 21%, 14%);
+}
+.descricao{
+    font-size: 15.5px;
+    line-height: 25.5px;
+    color:hsl(228, 12%, 48%);
+}
+
+.preco{
+    display: flex;
+    padding-top: 28px;
+    align-items: center;
+}
+.preco .preco-promocao{
+    color:hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    padding-right: 22px;
+}
+.preco .preco-antigo{
+    font-size: 15px;
+    color:hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.botao-carrinho{
+    background-color:hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 52px;
+    width: 263px;
+    border-radius: 10px;
+    gap: 16px;
+    font-size: 17px;
+}
+.botao-carrinho p{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.botao-carrinho:hover{
+    background-color: hsl(158, 36%, 22%);
+    cursor: pointer;
+}

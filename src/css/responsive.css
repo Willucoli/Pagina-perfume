@@ -1,0 +1,28 @@
+@media(max-width:768px){
+    body{
+        padding: 50px 25px;
+        height: 100%;
+    }
+    .container{
+        background-color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagem-perfume{
+        display: none;
+    }
+    .imagem-perfume-mobile{
+        display: flex;
+        max-width:100%;
+        border-radius: 10px 10px 0 0 ;
+    }
+    .nome-perfume{
+        font-size: 34px;
+    }
+    .botao-carrinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+}
